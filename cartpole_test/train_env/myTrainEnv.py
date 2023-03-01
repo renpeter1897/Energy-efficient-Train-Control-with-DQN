@@ -20,7 +20,7 @@ class TrainEnv(gym.Env):
         self.wdis = 0
         self.wstop = 1
         self.wenergy = 0.1
-        self.wtime = 0.1
+        self.wtime = 0.2
         self.train = train()
         self.railway = railway()
         self.maxDistance = self.railway.D  # 火车运行距离
@@ -65,7 +65,7 @@ class TrainEnv(gym.Env):
         Rspeed = 0
 
         F = self.train.get_tracForce(self.state.v)  # 根据当前速度获得最大牵引力
-        W = self.train.get_resist(self.state.v) * self.train.M \
+        W = self.train.get_resist(self.state.v * 3.6) * self.train.M \
             + self.railway.get_grad(self.state.pos) * self.train.M * 9.8  # 根据当前速度和位置获得阻力
         B = self.train.get_brakeForce(self.state.v)  # 根据当前速度获得最大制动力
 
@@ -101,7 +101,7 @@ class TrainEnv(gym.Env):
         if self.state.v == 0:  # 当速度等于0时
             self.done = True  # 停止该次训练
             if Serror > 1:  # 如果距离终点的距离大于1m
-                Rstop -= 25*(Serror / self.maxDistance)  # 停车惩罚，距终点越远惩罚越低
+                Rstop -= 10 + 25 * (Serror / self.maxDistance)  # 停车惩罚，距终点越远惩罚越低
                 self.reason = 'Failed Reached'
             elif Serror <= 1:  # 如果距离终点的距离小于1m
                 Radd += 50 - Serror  # 成功奖励

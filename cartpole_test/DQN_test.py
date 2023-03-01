@@ -112,3 +112,9 @@ class DQN:
         print('Saving Q_eval network successfully!')
         self.q_target.save_checkpoint(self.checkpoint_dir + 'Q_target/best_DQN_Q_target.pth')
         print('Saving Q_target network successfully!')
+
+    def load_best_models(self):
+        self.q_eval.load_checkpoint(self.checkpoint_dir + 'Q_eval/best_DQN_Q_eval.pth')
+        print('Loading Q_eval network successfully!')
+        self.q_target.load_checkpoint(self.checkpoint_dir + 'Q_target/best_DQN_Q_target.pth')
+        print('Loading Q_target network successfully!')
