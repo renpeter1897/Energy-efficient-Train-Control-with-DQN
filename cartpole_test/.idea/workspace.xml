@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c9b9c31-6b25-46b2-b331-04e1478a3b19" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/best_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DQN_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/DQN_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_100.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_100.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_1000.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_1000.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_1100.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_1100.pth" afterDir="false" />
@@ -79,8 +77,23 @@
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7300.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7300.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7400.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7400.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7500.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7500.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7600.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7600.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7700.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7700.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7800.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7800.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7900.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7900.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_800.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_800.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8000.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8000.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8100.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8100.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8200.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8200.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8300.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8300.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8400.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8400.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8500.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8500.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8600.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8600.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8700.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8700.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8800.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8800.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8900.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8900.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_900.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_900.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_9000.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_9000.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/best_DQN_Q_eval.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/best_DQN_Q_eval.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_100.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_100.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_1000.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_1000.pth" afterDir="false" />
@@ -155,8 +168,23 @@
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7300.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7300.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7400.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7400.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7500.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7500.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7600.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7600.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7700.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7700.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7800.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7800.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7900.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7900.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_800.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_800.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8000.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8000.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8100.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8100.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8200.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8200.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8300.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8300.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8400.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8400.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8500.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8500.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8600.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8600.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8700.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8700.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8800.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8800.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8900.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8900.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_900.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_900.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_9000.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_9000.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/best_DQN_Q_target.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/best_DQN_Q_target.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output_images/avg_reward.png" beforeDir="false" afterPath="$PROJECT_DIR$/output_images/avg_reward.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output_images/bst_curve/bst_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/output_images/bst_curve/bst_curve.png" afterDir="false" />
@@ -222,6 +250,7 @@
       <change beforePath="$PROJECT_DIR$/output_images/vs_curve/700vs_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/output_images/vs_curve/700vs_curve.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output_images/vs_curve/800vs_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/output_images/vs_curve/800vs_curve.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output_images/vs_curve/900vs_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/output_images/vs_curve/900vs_curve.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/1000step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1000step_info.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/100step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/100step_info.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/1050step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1050step_info.csv" afterDir="false" />
@@ -343,7 +372,6 @@
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/900step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/900step_info.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/950step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/950step_info.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train_env/myTrainEnv.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_env/myTrainEnv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../t.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -495,9 +523,6 @@
       <module name="cartpole_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -516,10 +541,10 @@
     <list>
       <item itemvalue="Python.best_test" />
       <item itemvalue="Python.myTrainEnv" />
+      <item itemvalue="Python.best_test (1)" />
       <item itemvalue="Python.run_LunarLander" />
       <item itemvalue="Python.run_stable" />
       <item itemvalue="Python.run_train" />
-      <item itemvalue="Python.best_test (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -546,12 +571,25 @@
       <workItem from="1677493978257" duration="11169000" />
       <workItem from="1677548139695" duration="369000" />
       <workItem from="1677548680081" duration="33876000" />
-      <workItem from="1677654931071" duration="7671000" />
+      <workItem from="1677654931071" duration="12935000" />
+      <workItem from="1677751705320" duration="11541000" />
     </task>
+    <task id="LOCAL-00001" summary="2023年3月1日17:54:08">
+      <created>1677664476131</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677664476131</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2023年3月1日17:54:08" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023年3月1日17:54:08" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/run_train_py$run_LunarLander.coverage" NAME="run_LunarLander 覆盖结果" MODIFIED="1677468904908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

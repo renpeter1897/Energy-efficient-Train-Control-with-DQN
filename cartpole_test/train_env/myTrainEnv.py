@@ -20,7 +20,7 @@ class TrainEnv(gym.Env):
         self.wdis = 0
         self.wstop = 1
         self.wenergy = 0.1
-        self.wtime = 0.2
+        self.wtime = 0.3
         self.train = train()
         self.railway = railway()
         self.maxDistance = self.railway.D  # 火车运行距离
