@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c9b9c31-6b25-46b2-b331-04e1478a3b19" name="默认变更列表" comment="">
+      <change beforePath="$PROJECT_DIR$/../bst_curve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cartpole_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cartpole_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/best_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_100.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_100.pth" afterDir="false" />
@@ -61,39 +64,9 @@
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_5900.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_5900.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_600.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_600.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6000.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6000.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6100.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6100.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6200.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6200.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6300.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6300.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6400.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6400.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6500.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6500.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6600.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6600.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6700.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6700.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6800.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6800.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6900.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_6900.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_700.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_700.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7000.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7000.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7100.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7100.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7200.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7200.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7300.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7300.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7400.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7400.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7500.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7500.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7600.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7600.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7700.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7700.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7800.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7800.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7900.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_7900.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_800.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_800.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8000.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8000.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8100.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8100.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8200.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8200.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8300.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8300.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8400.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8400.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8500.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8500.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8600.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8600.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8700.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8700.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8800.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8800.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8900.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_8900.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_900.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_900.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_9000.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/DQN_q_eval_9000.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/best_DQN_Q_eval.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_eval/best_DQN_Q_eval.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_100.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_100.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_1000.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_1000.pth" afterDir="false" />
@@ -152,39 +125,9 @@
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_5900.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_5900.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_600.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_600.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6000.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6000.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6100.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6100.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6200.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6200.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6300.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6300.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6400.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6400.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6500.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6500.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6600.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6600.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6700.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6700.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6800.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6800.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6900.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_6900.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_700.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_700.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7000.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7000.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7100.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7100.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7200.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7200.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7300.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7300.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7400.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7400.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7500.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7500.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7600.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7600.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7700.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7700.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7800.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7800.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7900.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_7900.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_800.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_800.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8000.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8000.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8100.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8100.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8200.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8200.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8300.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8300.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8400.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8400.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8500.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8500.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8600.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8600.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8700.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8700.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8800.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8800.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8900.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_8900.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_900.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_900.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_9000.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/DQN_Q_target_9000.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkpoints/train_env/Q_target/best_DQN_Q_target.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/train_env/Q_target/best_DQN_Q_target.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output_images/avg_reward.png" beforeDir="false" afterPath="$PROJECT_DIR$/output_images/avg_reward.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output_images/bst_curve/bst_curve.png" beforeDir="false" afterPath="$PROJECT_DIR$/output_images/bst_curve/bst_curve.png" afterDir="false" />
@@ -253,125 +196,128 @@
       <change beforePath="$PROJECT_DIR$/run_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/1000step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1000step_info.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/100step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/100step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1050step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1050step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1050step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/1100step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1100step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1150step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1150step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1150step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/1200step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1200step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1250step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1250step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1250step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/1300step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1300step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1350step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1350step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1350step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/1400step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1400step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1450step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1450step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1450step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/1500step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1500step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/150step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/150step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1550step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1550step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/150step_info.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1550step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/1600step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1600step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1650step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1650step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1650step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/1700step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1700step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1750step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1750step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1750step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/1800step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1800step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1850step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1850step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1850step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/1900step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1900step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1950step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/1950step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/1950step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/2000step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2000step_info.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/200step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/200step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2050step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2050step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2050step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/2100step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2100step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2150step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2150step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2150step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/2200step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2200step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2250step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2250step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2250step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/2300step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2300step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2350step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2350step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2350step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/2400step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2400step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2450step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2450step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2450step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/2500step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2500step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/250step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/250step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2550step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2550step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/250step_info.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2550step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/2600step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2600step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2650step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2650step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2650step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/2700step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2700step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2750step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2750step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2750step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/2800step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2800step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2850step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2850step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2850step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/2900step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2900step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2950step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/2950step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/2950step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/3000step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3000step_info.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/300step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/300step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3050step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3050step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3050step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/3100step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3100step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3150step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3150step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3150step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/3200step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3200step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3250step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3250step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3250step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/3300step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3300step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3350step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3350step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3350step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/3400step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3400step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3450step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3450step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3450step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/3500step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3500step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/350step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/350step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3550step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3550step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/350step_info.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3550step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/3600step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3600step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3650step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3650step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3650step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/3700step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3700step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3750step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3750step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3750step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/3800step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3800step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3850step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3850step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3850step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/3900step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3900step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3950step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/3950step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/3950step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/4000step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4000step_info.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/400step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/400step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4050step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4050step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4050step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/4100step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4100step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4150step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4150step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4150step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/4200step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4200step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4250step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4250step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4250step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/4300step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4300step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4350step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4350step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4350step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/4400step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4400step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4450step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4450step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4450step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/4500step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4500step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/450step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/450step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4550step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4550step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/450step_info.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4550step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/4600step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4600step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4650step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4650step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4650step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/4700step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4700step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4750step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4750step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4750step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/4800step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4800step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4850step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4850step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4850step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/4900step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4900step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4950step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/4950step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/4950step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/5000step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5000step_info.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/500step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/500step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5050step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5050step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/50step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/50step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5050step_info.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/50step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/5100step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5100step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5150step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5150step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5150step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/5200step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5200step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5250step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5250step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5250step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/5300step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5300step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5350step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5350step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5350step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/5400step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5400step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5450step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5450step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5450step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/5500step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5500step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/550step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/550step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5550step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5550step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/550step_info.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5550step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/5600step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5600step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5650step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5650step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5650step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/5700step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5700step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5750step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5750step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5750step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/5800step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5800step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5850step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5850step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5850step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/5900step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5900step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5950step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/5950step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/5950step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/6000step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/6000step_info.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/600step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/600step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/650step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/650step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/650step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/700step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/700step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/750step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/750step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/750step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/800step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/800step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/850step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/850step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/850step_info.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stepinfo_csv/900step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/900step_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stepinfo_csv/950step_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stepinfo_csv/950step_info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stepinfo_csv/950step_info.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_env/myRunningModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_env/myRunningModel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train_env/myTrainEnv.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_env/myTrainEnv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_env/mybasic.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_env/mybasic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myplot.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -388,6 +334,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="2KxltJYSEIwNZHQFYe8fEPbXNwQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -399,7 +353,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Anaconda3/envs/pytorch/python.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -411,11 +365,36 @@
       <recent name="C:\Users\administor\PycharmProjects\pythonProject4\cartpole_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.best_test (1)">
+  <component name="RunManager" selected="Python.myRunningModel">
+    <configuration name="ReLU" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cartpole_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReLU.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="best_test (1)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="cartpole_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -445,6 +424,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\administor\PycharmProjects\pythonProject4\cartpole_test\best_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="myRunningModel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cartpole_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_env" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_env/myRunningModel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -523,6 +524,9 @@
       <module name="cartpole_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -545,9 +549,13 @@
       <item itemvalue="Python.run_LunarLander" />
       <item itemvalue="Python.run_stable" />
       <item itemvalue="Python.run_train" />
+      <item itemvalue="Python.ReLU" />
+      <item itemvalue="Python.myRunningModel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.myRunningModel" />
+        <item itemvalue="Python.ReLU" />
         <item itemvalue="Python.run_train" />
         <item itemvalue="Python.run_stable" />
         <item itemvalue="Python.run_LunarLander" />
@@ -572,7 +580,12 @@
       <workItem from="1677548139695" duration="369000" />
       <workItem from="1677548680081" duration="33876000" />
       <workItem from="1677654931071" duration="12935000" />
-      <workItem from="1677751705320" duration="11541000" />
+      <workItem from="1677751705320" duration="12310000" />
+      <workItem from="1677811310519" duration="26110000" />
+      <workItem from="1677854375196" duration="648000" />
+      <workItem from="1677897423961" duration="4427000" />
+      <workItem from="1677902315416" duration="4071000" />
+      <workItem from="1678006061326" duration="2753000" />
     </task>
     <task id="LOCAL-00001" summary="2023年3月1日17:54:08">
       <created>1677664476131</created>
@@ -581,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677664476131</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2023年3月2日22:09:36">
+      <created>1677766201271</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677766201271</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,12 +609,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2023年3月1日17:54:08" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023年3月1日17:54:08" />
+    <MESSAGE value="2023年3月2日22:09:36" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023年3月2日22:09:36" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/run_train_py$run_LunarLander.coverage" NAME="run_LunarLander 覆盖结果" MODIFIED="1677468904908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/run_train_py$best_test.coverage" NAME="best_test 覆盖结果" MODIFIED="1677658210058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train_env" />
+    <SUITE FILE_PATH="coverage/run_train_py$best_test.coverage" NAME="best_test 覆盖结果" MODIFIED="1677825526453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train_env" />
+    <SUITE FILE_PATH="coverage/run_train_py$ReLU.coverage" NAME="ReLU 覆盖结果" MODIFIED="1677849634261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/run_train_py$run_stable.coverage" NAME="run_stable 覆盖结果" MODIFIED="1677496399676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train_env" />
     <SUITE FILE_PATH="coverage/run_train_py$run_train.coverage" NAME="run_train 覆盖结果" MODIFIED="1677582667053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/run_train_py$myRunningModel.coverage" NAME="myRunningModel 覆盖结果" MODIFIED="1678007312619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train_env" />
   </component>
 </project>

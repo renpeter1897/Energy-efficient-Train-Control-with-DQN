@@ -47,7 +47,7 @@ def main():
                 break
         observation = env.reset()
         while True:
-            action = agent.choose_acion(observation)
+            action = agent.choose_acion(observation, isTrain=False)
             if env.state.pos <= 1000:
                 action = 0
             observation_, EC, reward, done = env.step(action)
@@ -83,7 +83,7 @@ def main():
             plt.clf()
             agent.save_models(episode+1)
 
-        if (episode + 1) % 50 == 0:
+        if (episode + 1) % 100 == 0:
             df = pd.DataFrame(env.stepinfo)
             df.columns = ['positions', 'speed', 'time', 'action',
                           'Rstop', 'Rtime', 'Renergy', 'Radd', 'Rdis', 'Rspeed']

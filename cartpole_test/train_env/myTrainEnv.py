@@ -20,7 +20,7 @@ class TrainEnv(gym.Env):
         self.wdis = 0
         self.wstop = 1
         self.wenergy = 0.1
-        self.wtime = 0.3
+        self.wtime = 0.5
         self.train = train()
         self.railway = railway()
         self.maxDistance = self.railway.D  # 火车运行距离
@@ -101,14 +101,14 @@ class TrainEnv(gym.Env):
         if self.state.v == 0:  # 当速度等于0时
             self.done = True  # 停止该次训练
             if Serror > 1:  # 如果距离终点的距离大于1m
-                Rstop -= 10 + 25 * (Serror / self.maxDistance)  # 停车惩罚，距终点越远惩罚越低
+                Rstop -= 5 + 25 * (Serror / self.maxDistance)  # 停车惩罚，距终点越远惩罚越低
                 self.reason = 'Failed Reached'
             elif Serror <= 1:  # 如果距离终点的距离小于1m
                 Radd += 50 - Serror  # 成功奖励
                 self.reason = 'Succeed Reached'
         elif np.float32(dv) > np.float32(dspeedlimit):  # 如果超速
             self.done = True  # 停止该次训练
-            Rstop -= 15  # 停车惩罚，距终点越远惩罚越低
+            Rstop -= 10  # 停车惩罚，距终点越远惩罚越低
             self.reason = 'OverSpeed'
 
         tmin = self.dTimeLimit[-1] - self.dTimeLimit[self.timestep]  # 计算当前位置的最短运行时间

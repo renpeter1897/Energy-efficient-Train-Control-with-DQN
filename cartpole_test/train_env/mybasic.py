@@ -99,7 +99,7 @@ def SL_Grad_curve(slpos, slval, gradpos, gradval):
         V[2 * i] = slval[i]
     P[2 * n - 3] = slpos[n - 1]
     V[2 * n - 3] = slval[n - 2]
-    plt.plot(P, V)
+    plt.plot(P, V, label='区间限速')
     n = len(gradpos)
     x = np.zeros(2 * n)
     y = np.zeros(2 * n)

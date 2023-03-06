@@ -59,6 +59,8 @@ def final_state(serror):
 
 #  计算最短时间曲线
 def MintimeCurve(seroor=1, ds=200):
+    plt.rcParams['font.sans-serif'] = ['SimHei']
+    plt.rcParams['axes.unicode_minus'] = False
     v0, t0 = final_state(seroor)
     slpos = railway().slpos
     slval = railway().slval
@@ -126,7 +128,11 @@ def MintimeCurve(seroor=1, ds=200):
         V.append(v)
     plt.figure()
     SL_Grad_curve(slpos, slval, gradpos, gradval)
-    plt.plot(FPos, V)
+    plt.plot(FPos, V, label='速度距离曲线')
+    plt.xlabel('位移（米）')
+    plt.ylabel('速度（千米/小时）')
+    plt.legend()
+    plt.savefig('mintime.svg', format='svg')
     plt.show()
     Pos.append(slpos[-1] + seroor)
     T.append(T[-1] + t0)
@@ -136,7 +142,7 @@ def MintimeCurve(seroor=1, ds=200):
     V = pd.DataFrame(V)
     df = pd.concat([Pos, T, V], axis=1)
     df.columns = ['positions', 'runtime', 'speed']
-    df.to_csv('Mintime-200m.csv')
+    df.to_csv('Mintime-200m1.csv')
 
 
 if __name__ == '__main__':
