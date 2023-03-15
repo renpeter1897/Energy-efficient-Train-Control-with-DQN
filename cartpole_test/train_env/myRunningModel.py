@@ -16,8 +16,6 @@ class run:
         self.pos = pos
         self.v = v
         self.t = t
-        # self.w0 = self.train.get_resist(self.v * 3.6) * self.M  # 牛
-        # self.w1 = self.railway.get_grad(self.pos) * self.M * 9.8  # 牛
 
     def refresh(self, F, B, ds, mode='normal'):
         self.w0 = self.train.get_resist(self.v * 3.6) * self.M  # 牛  # 获得该速度下产生的阻力
@@ -35,7 +33,7 @@ class run:
             t = self.t + ds / ((v + self.v) / 2)  # s
         else:
             v = 0
-            pos_cha = -self.v ** 2 / (2 * acc)  # 当速度为0时，位移不再是100m，要重新计算
+            pos_cha = -self.v ** 2 / (2 * acc)  # 当速度为0时，位移不再是200m，要重新计算
             pos = self.pos + pos_cha
             t = self.t + pos_cha / ((v + self.v) / 2)
 

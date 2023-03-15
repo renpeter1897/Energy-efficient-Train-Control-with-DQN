@@ -9,7 +9,7 @@ def plot_learning_curve(episodes, records, title, ylabel, figure_file):
     plt.xlabel('episode')
     plt.ylabel(ylabel)
 
-    plt.savefig(figure_file)
+    plt.savefig(figure_file, format='svg')
     plt.show()
 
 

@@ -1,6 +1,7 @@
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import math
+import mybasic
 from mybasic import train
 from mybasic import railway
 from myRunningModel import run
@@ -16,11 +17,10 @@ class TrainEnv(gym.Env):
         SpeedLimit = np.array(df.iloc[:, 3])
         TimeLimit = np.array(df.iloc[:, 2])
         self.ds = 200  # 运行步长为200m，在该200m的位移中将火车运行视为匀加速
-        self.wspeed = 0
-        self.wdis = 0
+        self.wspeed = 1
         self.wstop = 1
-        self.wenergy = 0.1
-        self.wtime = 0.5
+        self.wenergy = 0.2
+        self.wtime = 0.2
         self.train = train()
         self.railway = railway()
         self.maxDistance = self.railway.D  # 火车运行距离
@@ -38,7 +38,14 @@ class TrainEnv(gym.Env):
         self.rewardlist = []
         self.stepinfo = []
 
-    def reset(self):
+    def reset(self, seed=None, return_info=None, opitions=None):
+        self.info = {"P": 0,
+                     "V": 0,
+                     "T": 1080,
+                     "R": None,
+                     "E": 0}
+        self.ptest = [0]
+        self.vtest = [0]
         self.rewardlist = []
         self.statelist = []
         self.stepinfo = []
@@ -48,7 +55,11 @@ class TrainEnv(gym.Env):
         self.done = False
         self.timestep = 0
         self.state = run(self.railway.slpos[0], self.ds, 0, 0)
-        self.obs = np.array([self.railway.slpos[0], 0, 1, (self.dSpeedLimit[1] / 3.6) / self.maxSpeed])  # 位置，速度，剩余时间，下一位置限速
+        while self.state.pos <= 1000:
+            obs, _, _, info = self.step(0)
+            self.obs = obs
+            self.ptest.append(self.state.pos)
+            self.vtest.append(self.state.v * 3.6)
         return self.obs
 
     def step(self, action):
@@ -61,7 +72,6 @@ class TrainEnv(gym.Env):
         Rstop = 0
         Rtime = 0
         Renergy = 0
-        Rdis = 0
         Rspeed = 0
 
         F = self.train.get_tracForce(self.state.v)  # 根据当前速度获得最大牵引力
@@ -73,14 +83,14 @@ class TrainEnv(gym.Env):
             lastpos = self.state.pos  # 上一个状态的位置
             dv, dpos, dtime = self.state.refresh(F, 0, self.ds)  # 获得当前状态的速度、位置、时间
             pos_cha = dpos - lastpos  # 计算位移大小
-            dec = (F / 1000) * pos_cha  # 计算转移过程产生的能耗
+            dec = ((F / 1000) * pos_cha) / 3600  # 计算转移过程产生的能耗(kwh）
             dec_r = 1  # 归一化后作为能耗奖励，产生的能耗/该状态转移可能产生的最大能耗
 
         elif action == 1:  # 以与阻力相等的牵引力运行，即匀速运行
             lastpos = self.state.pos
             dv, dpos, dtime = self.state.refresh(W, 0, self.ds)
             pos_cha = dpos - lastpos
-            dec = (W / 1000) * pos_cha
+            dec = ((W / 1000) * pos_cha) / 3600
             dec_r = W / F
 
         elif action == 2:  # 既不牵引也不制动，惰行
@@ -97,52 +107,70 @@ class TrainEnv(gym.Env):
         self.EC += dec
         self.timestep += 1
         dspeedlimit = self.dSpeedLimit[self.timestep] / 3.6  # 计算当前位置的限速大小
-        Serror = abs(dpos - self.railway.slpos[-1])  # 计算距离终点还有多少距离
-        if self.state.v == 0:  # 当速度等于0时
-            self.done = True  # 停止该次训练
-            if Serror > 1:  # 如果距离终点的距离大于1m
-                Rstop -= 5 + 25 * (Serror / self.maxDistance)  # 停车惩罚，距终点越远惩罚越低
-                self.reason = 'Failed Reached'
-            elif Serror <= 1:  # 如果距离终点的距离小于1m
-                Radd += 50 - Serror  # 成功奖励
-                self.reason = 'Succeed Reached'
-        elif np.float32(dv) > np.float32(dspeedlimit):  # 如果超速
-            self.done = True  # 停止该次训练
-            Rstop -= 10  # 停车惩罚，距终点越远惩罚越低
-            self.reason = 'OverSpeed'
+        Serror = abs(dpos - self.maxDistance)  # 计算距离终点还有多少距离
+        Terror = abs(dtime - self.maxTime)
+
+        if self.state.v == 0:
+            self.reason = 'FR'
+            self.done = True
+        elif np.float32(dv) > np.float32(dspeedlimit):
+            self.reason = 'OS'
+            self.done = True
+            Rspeed -= 5
+
+        if self.done:
+            if Serror > 1:
+                if Serror > 200:
+                    Rstop -= 5 + 25 * (Serror / self.maxDistance)
+                elif Serror <= 200:
+                    Rstop -= 5 - 50 * (1 - Serror / 200)
+            elif Serror <= 1 and Terror < 1:
+                Radd += 50
+                self.reason = 'SR'
 
         tmin = self.dTimeLimit[-1] - self.dTimeLimit[self.timestep]  # 计算当前位置的最短运行时间
         tres = self.maxTime - self.state.t  # 还剩多少时间
-        Rtime += (tres - tmin) / (self.maxTime - self.dTimeLimit[-1]) if (tres-tmin) < 0 else 0 # 剩余时间如果小于最短运行时间，则给予惩罚
+        Rtime += (tres - tmin) / (self.maxTime - self.dTimeLimit[-1]) if (tres - tmin) < 0 else 0  # 剩余时间如果小于最短运行时间，则给予惩罚
 
         Renergy += 1 - dec_r  # 能耗越低奖励越高
 
-        Rspeed += dv / self.maxSpeed
-
-        if self.done:
-            Rdis += 50 * (dpos / self.maxDistance)
-
-        Rdis *= self.wdis
-        Rspeed *= self.wspeed
         Rstop *= self.wstop
         Rtime *= self.wtime
         Renergy *= self.wenergy
-        Reward += Radd + Rstop + Rtime + Renergy + Rdis + Rspeed
+        Rspeed *= self.wspeed
+        Reward += Radd + Rstop + Rtime + Renergy + Rspeed
 
-        next_limit = self.dSpeedLimit[self.timestep+1] / 3.6
+        next_limit = self.dSpeedLimit[self.timestep + 1] / 3.6
         self.obs = np.array([self.state.pos / self.maxDistance,  # 对状态进行归一化
                              self.state.v / self.maxSpeed,
                              tres / self.maxTime,
-                            next_limit / self.maxSpeed])
+                             next_limit / self.maxSpeed])
+
+        self.info = {"P": self.state.pos,
+                     "V": self.state.v,
+                     "T": self.state.t,
+                     "R": self.reason,
+                     "E": self.EC}
 
         self.statelist = [self.state.pos, self.state.v, self.state.t, action]
-        self.rewardlist = [Rstop, Rtime, Renergy, Radd, Rdis, Rspeed]
+        self.rewardlist = [Rstop, Rtime, Renergy, Radd, Rspeed]
         self.stepinfo.append(self.statelist + self.rewardlist)
 
-        return self.obs, self.EC, Reward, self.done
+        return self.obs, Reward, self.done, self.info
 
-    def render(self, mode="human"):
-        pass
+    def render(self, mode='huamn'):
+        self.ptest.append(self.state.pos)
+        self.vtest.append(self.state.v * 3.6)
+        if self.done:
+            print(self.info)
+
+    def plot_vs_curve(self):
+        plt.figure()
+        mybasic.SL_Grad_curve(self.railway.slpos, self.railway.slval,
+                              self.railway.gradpos, self.railway.gradval)
+        plt.plot(self.ptest, self.vtest)
+        plt.show()
+        plt.clf()
 
     def seed(self, seed=None):
         self.np_random, seed = seeding.np_random(seed)
